@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+/*     
+    background: linear-gradient(to right, rgb(56, 42, 64), rgb(75, 59, 59), #344349); */
+    background: linear-gradient(to right, rgb(134, 119, 143), rgb(130, 107, 107), #708187);
+    font-family: Arial, sans-serif;
+}
+nav{
+    padding: 20px;
+    background-color: #db6d6d;}
+
+
+    
+    
+
+
+
+.card-img-top {
+  width: 100%;
+  height: 250px;        /* sab images ki same height */
+  object-fit: cover;
+  overflow: hidden; 
+  outline: none;    /* image stretch nahi hogi, crop ho kar fit hogi */
+}
+
+.card {
+  height: 100%; 
+  outline: none; 
+  border: 4px solid #098ea5;       /* row ke saare cards barabar height ke */
+}
+.card-body {
+    outline: none;
+}
+
+.badge{
+    background-color: #50666a;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
